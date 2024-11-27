@@ -1,44 +1,50 @@
-h3 {
-
-    background-color: rgb(123, 56, 123);
+h2 {background-color: rgb(123, 56, 123);
     color: white;
-    display: flexbox;
-    align-items: center;
     text-align: center;
-    width: 550px;
+height: 40px;
+padding: 90px;
+font-weight: bolder;
+border-style: dashed;
+border-radius: 100%;
 
-    
 }
 
-h5 {background-color: hsl(350, 66%, 71%);
+h3 {background-color: rgb(123, 56, 123);
+    color: white;
+    text-align: center;
+height: 40px;
+padding: 90px;
+
+}
+
+h5 {/*background-color: hsl(306, 50%, 69%);*/
+    background-color: rgb(213, 142, 213);
 color: black;
 display: flex;
 align-items: center;
 flex-direction: column;
-width: 550px;
+padding: 20px;
+
 
 }
 
-section {background-color: hsl(350, 66%, 71%) ;
+nav {background-color: hsl(267, 75%, 69%) ;
     display: flexbox;
-    align-items: center;
-    text-align: center;
-    width: 100px;
-}
-
-#container {display:flex;
     flex-direction: column;
-gap: 10px;
+    padding: 20px;
+color: blue;
+    text-wrap: wrap;
+}
+
+body {display:flex;
+    flex-direction: column;
+background-color: #af8181
 
 }
 
-#content-container {
-    display: flex;
-    height: 500px;
-    flex-wrap: wrap;
-    gap: 10px;
-}
 
 a {
     color: blue;
+    padding: 60px;
 }
+
