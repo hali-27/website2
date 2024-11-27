@@ -1,0 +1,44 @@
+h3 {
+
+    background-color: rgb(123, 56, 123);
+    color: white;
+    display: flexbox;
+    align-items: center;
+    text-align: center;
+    width: 550px;
+
+    
+}
+
+h5 {background-color: hsl(350, 66%, 71%);
+color: black;
+display: flex;
+align-items: center;
+flex-direction: column;
+width: 550px;
+
+}
+
+section {background-color: hsl(350, 66%, 71%) ;
+    display: flexbox;
+    align-items: center;
+    text-align: center;
+    width: 100px;
+}
+
+#container {display:flex;
+    flex-direction: column;
+gap: 10px;
+
+}
+
+#content-container {
+    display: flex;
+    height: 500px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+a {
+    color: blue;
+}
