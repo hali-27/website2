@@ -38,7 +38,7 @@ color: blue;
 
 body {display:flex;
     flex-direction: column;
-background-color: #af8181
+background-color: #ebcfcf
 
 }
 
@@ -48,3 +48,8 @@ a {
     padding: 60px;
 }
 
+footer {color: grey;
+display: flexbox;
+float: left;
+padding-top: 50px;
+}
