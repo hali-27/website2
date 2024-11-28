@@ -29,11 +29,12 @@ padding: 20px;
 }
 
 nav {background-color: hsl(267, 75%, 69%) ;
-    display: flexbox;
-    flex-direction: column;
+    display: flex;
+    justify-content: center;
     padding: 10px;
+    white-space: nowrap;
 color: blue;
-    text-wrap: wrap;
+    
 }
 
 body {display:flex;
@@ -45,12 +46,27 @@ background-color: #ebcfcf
 
 a {
     color: blue;
-    padding: 60px;
+    padding: 50px;
     text-decoration: underline;
+    
+    
 }
 
 footer {color: grey;
 display: flexbox;
 float: left;
 padding-top: 50px;
+}
+
+
+.flex-container {display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+
+}
+
+img {display: flex;
+    width: 50%;
+    height: auto;
+    padding-top: 10px;
 }
