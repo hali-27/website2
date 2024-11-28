@@ -31,7 +31,7 @@ padding: 20px;
 nav {background-color: hsl(267, 75%, 69%) ;
     display: flexbox;
     flex-direction: column;
-    padding: 20px;
+    padding: 10px;
 color: blue;
     text-wrap: wrap;
 }
@@ -46,6 +46,7 @@ background-color: #ebcfcf
 a {
     color: blue;
     padding: 60px;
+    text-decoration: underline;
 }
 
 footer {color: grey;
