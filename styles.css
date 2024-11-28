@@ -2,7 +2,7 @@ h2 {background-color: rgb(123, 56, 123);
     color: white;
     text-align: center;
 height: 40px;
-padding: 90px;
+padding: 70px;
 font-weight: bolder;
 border-style: dashed;
 border-radius: 100%;
@@ -13,7 +13,7 @@ h3 {background-color: rgb(123, 56, 123);
     color: white;
     text-align: center;
 height: 40px;
-padding: 90px;
+padding: 70px;
 
 }
 
@@ -70,3 +70,21 @@ img {display: flex;
     height: auto;
     padding-top: 10px;
 }
+
+#question {
+    margin-bottom: 10px;
+    
+}
+
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding:5px 5px;
+    background-color: rgb(123, 56, 123);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {background-color: lightskyblue;}
